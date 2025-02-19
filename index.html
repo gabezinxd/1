@@ -7,44 +7,56 @@
     <title>Website</title>
   </head>
   <body>
-
     <header>
       <h1>Meu site</h1>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="contato.html">Contato</a></li>
+          <li><a target="_blank" href="index.html">Home</a></li>
+          <li><a target="_blank" href="sobre.html">Sobre</a></li>
+          <li><a target="_blank" href="contato.html">Contato</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <section class="about">
       <h2>Sobre nós</h2>
       <p>
         Bem-vindo ao nosso website. Nós somos uma companhia especializada em
         widgets.
       </p>
-      <section>
-        <article>
-          <h2>Como criar um Widget</h2>
-          <p>Widgets são ótimos. Veja como criar um.</p>
-        </article>
-      </section>
-    </main>
+    </section>
 
-    <aside>
-      <h3>Artigos relacionados</h3>
-      <ul>
-        <li><a href="#">Artigo 1</a></li>
-        <li><a href="#">Artigo 2</a></li>
-        <li><a href="#">Artigo 3</a></li>
-      </ul>
-    </aside>
+    <main>
+      <article class="howto">
+        <h2>Como criar um Widget</h2>
+        <p>
+          Widgets são ótimos. Veja como criar um. <br /><br />Primeiro, escolha
+          o tipo de widget que você deseja criar. Em seguida, siga estas etapas:
+        </p>
+        <ol>
+          <li>Planeje o design do seu widget.</li>
+          <li>Escreva o código HTML para a estrutura do widget.</li>
+          <li>Adicione estilos CSS para personalizar a aparência do widget.</li>
+          <li>Use JavaScript para adicionar interatividade ao widget.</li>
+        </ol>
+        <p>
+          Lembre-se de testar seu widget em diferentes navegadores para garantir
+          que ele funcione corretamente.
+        </p>
+      </article>
+
+      <aside>
+        <h3>Artigos relacionados</h3>
+        <ul>
+          <li><a href="#">Artigo 1</a></li>
+          <li><a href="#">Artigo 2</a></li>
+          <li><a href="#">Artigo 3</a></li>
+        </ul>
+      </aside>
+    </main>
 
     <footer>
       <p>&copy; 2025 Meu site</p>
     </footer>
-    
   </body>
 </html>

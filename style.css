@@ -1,25 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  color: #575656;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+header {
+  display: flex;
+  gap: 150px;
+  padding: 10px 0 10px 50px;
+  background-color: #333;
+}
+
+header h1 {
+  color: navajowhite;
+  letter-spacing: 3px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: navajowhite;
+}
+
+.about {
+  text-align: center;
+  margin: 50px;
+}
+
+.about h2 {
+  font-size: 36px;
+}
+
+.about p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #575656;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 68vh;
+  margin: 0 10%;
+}
+
+.howto {
+  max-width: 500px;
+}
+
+.howto h2 {
+  font-size: 28px;
+}
+
+.howto p {
+  margin: 10px 0 10px;
+}
+
+.howto ol {
+  color: black;
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+aside {
+  margin-left: 30px;
+}
+
+aside h3 {
+  font-size: 28px;
+}
+
+aside ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+aside ul li {
+  margin: 10px 0;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #747c4b;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: navajowhite;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
 }
